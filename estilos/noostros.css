@@ -1,0 +1,87 @@
+.section_contenedor{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+ /* flex-direction:row-reverse ;*/
+  align-items: center; /*para centrar lso elementos al centro*/
+  justify-content: space-between;/*para alinear los elementos alas esquinas*/
+}
+
+.img-ilustracion{
+  width: 100%;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+  border-radius: 50%;
+}
+
+
+.section_texto{
+ width: 70%;
+ margin: 0;
+ text-align: start;
+}  
+
+.testimonios{
+ text-align: center;
+} 
+/*
+.titulo_testimonio{
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color:rgb(18, 18, 214);
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}*/
+
+.tetsimonio_contenedor{
+width: 90%;
+ margin: 0 auto;
+ padding: 60px 0;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 2rem;
+ top: 1rem;
+
+
+} 
+
+.titulo_testimonio{
+
+  font-size: 2rem;
+  text-transform: uppercase;
+  color:rgb(18, 18, 214);
+  font-weight: 600;
+  margin-top: 50px;
+}
+.testimonio_img{
+ width: auto;
+ height: 200px;
+ object-fit: cover;/*PARA MANTENER LA CALIDA D ELA IMAGEN SIN IMPORTAR EL TAMAÃ‘O*/
+
+} 
+.carrera{
+  margin-top: 1em;
+}
+.parrafo_testimonio{
+  text-align: justify;
+  line-height: 1.5;
+  margin: 1.5rem;
+}
+.btn_info{
+    display: inline-block;
+    padding: 8px 16px;
+    width: 30%;
+    background-color: var(--COLOR1);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 300;
+}
+
+.nombre_cliente{
+  margin-bottom:0.7rem;;
+
+} 
